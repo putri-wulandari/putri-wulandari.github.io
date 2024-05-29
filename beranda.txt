@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PW SNACKS</title>
+    <link rel="stylesheet" href="styles.css">
+
+<style>
+ 	body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFFDD0;
+        }
+        header {
+            background-color: #FFFDD0;
+            color: black;
+            text-align: center;
+            padding: 10px 0;
+        }
+ 	.kata-berjalan {animation: berjalan 25s linear infinite;}
+  
+ 	@keyframes berjalan { 100% { transform: translateX(100%); } 0% { transform: translateX(-100%); } }
+        nav {
+            display: flex;
+            justify-content: left;
+            background-color: orange;
+        }
+        nav a {
+            color: black;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #FFFDD0;
+            color: black;
+        }
+	.container {
+            padding: 150px;
+	background-image: url("bg4.png"); background-size: cover;
+
+        }
+        
+	footer {
+            background-color: orange;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+</style>
+</head>
+<body>
+ <header>
+<div class="kata-berjalan">
+  <b>WELCOME TO "PW SNACKS"_DELICIOUS SNACKS IN ZAMAN NOW</b>
+</div>
+ </header>
+    <nav>
+          <a href="beranda.html">HOME</a>
+          <a href="filosofi logo.html">FILOSOFI LOGO & VISI MISI</a>
+          <a href="menu harga.html">MENU & HARGA</a>
+    
+  
+  </nav>
+ <div class="container" align="center">
+    <section id="home" class="content" >
+        <h1><center>"Selamat Datang di PW SNACKS"</h1>
+	    <hr size=7 color = orange align=center center noshade>
+
+        <p>PW Snacks merupakan sebuah usaha yang didirikan oleh seorang mahasiswa Pendidikan Matematika dari Fakultas Keguruan dan Ilmu Pendidikan yang 
+	   memiliki minat di bidang makanan, sehingga mendirikan sebuah usaha di bidang makanan ringan/cemilan. Seiring berkembangnya zaman, makanan ringan semakin
+ 	   banyak ragam jenisnya. Sehingga, sebagai seorang pemuda yang ingin menjadi seorang pengusaha pada zaman sekarang, tentunya harus lebih kreatif dan inovatif dalam
+ 	   menciptakan sebuah produk baru. Menuangkan ide ke dalam sebuah tindakan yang nyata adalah salah satu langkah awal untuk memulai usaha.</p>
+   	<p>PW Snacks menawarkan sebuah produk baru di bidang makanan ringan dengan bahan makanan yang mudah dan sering ditemui di pasar dan toko-toko 
+	   penjual bahan makanan lainnya. Dengan tampilan yang lebih menarik dan modern diharapkan mampu menarik minat para pembeli (konsumen). Makanan 
+	   ringan dari PW Snacks sangat cocok untuk dimakan pada saat waktu santai baik bersama keluarga, teman atau sendirian, cocok untuk dibawa kemana
+           saja karena didesain dengan kemasan yang mudah dibawa kemana-mana, cocok untuk teman saat belajar, dan lain sebagainya. Berikut merupakan penjelasan
+           dan gambar dari produk “PW Snacks”, antara lain sebagai berikut.</p>
+
+</section>
+      <section id="pw1" class="content">
+      	<b><font size=2 Face=tahoma color=black>
+	<img src="pw1.png" hspace= 200 vspace= 2 width=400 height =300 
+			align="center" border=2>
+
+
+ </section>
+ </div>
+    <footer>
+        <p>&copy; PW SNACKS est 2024.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
